@@ -13,7 +13,7 @@ Preto:#000D0C
 }
 
 body,html{
-    background-color:#1f0989;
+    background-color:#025373;
     color: rgb(12, 12, 12);
     height: 100vh;
     width: 100vw;
@@ -37,6 +37,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition:width .3s, height .3s ;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
